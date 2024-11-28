@@ -85,14 +85,15 @@ The SQL queries result in the following insights and are divided into three main
         
 
 2. **Industries**
-      - Retail and Consumer have been the highest impacted industry by layoffs; Manufacturing is the less impacted
-      - Aerospace had the biggest layoff with 57% and Manfacturing the less with 5%.
-      - 
+      - The Retail and Consumer sectors were the most significantly impacted by layoffs, while the Manufacturing sector experienced the least impact.
+      - The Aerospace industry recorded the highest layoff percentage at 57%, whereas Manufacturing had the lowest at 5%.
+      - The average layoff percentage across all industries during the analyzed period was approximately 26%.
 
 
 3. **Timings**
-      - Demographics & Preferences: Insights into unique customer types, payment methods, gender distribution, and the highest-spending customer type.
-
+      - January 2023 witnessed the highest number of layoffs during the analyzed period, while October 2021 recorded the lowest.
+      - While 2021 had the highest layoff percentage, 2022 saw the greatest total number of layoffs.
+      - Layoff numbers began to rise sharply starting in October 2022 and continued to escalate through the end of the analyzed period.
         
 
 ## Replication
