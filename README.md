@@ -101,28 +101,24 @@ To replicate this Walmart Sales project, please follow the steps outlined below.
    - Ensure MySQL server is running and accessible.
 
 2. **Download and Prepare Data**:
-   - Download the WalmartSalesData.csv (or your dataset).
+   - Download the `LayoffData.csv`.
    - Ensure the dataset is clean and properly formatted for MySQL import.
 
 3. **Create Database and Tables**:
-   - Create a new database in MySQL: `CREATE DATABASE` walmart_sales;
-   - Create the sales table using the schema provided in the Data section of the project.
-   - Import the data from the CSV file into the sales table using the LOAD DATA INFILE statement or MySQL Workbench's import functionality.
+   - Create a new database in MySQL: `CREATE DATABASE` world_layoffs;
+   - Create the `layoffs` table using the schema provided in the Data section of the project.
+   - Import the data from the CSV file into the `layoffs` table using the LOAD DATA INFILE statement or MySQL Workbench's import functionality.
 
-4. **Data Wrangling**:
-   - Run SQL queries from the Data_Wrangling.sql file to clean the data (e.g., handling NULLs, ensuring no missing values, setting constraints like NOT NULL).
+4. **Data Cleaning**:
+   - Run SQL queries from the `Data_Cleaning.sql` file to clean the data (e.g., removing duplicates, standardise data, handling NULLs).
 
-5. **Feature Engineering**:
-   - Use SQL queries from the Feature_Engineering.sql file to create new columns (e.g., time_of_day, day_name, month_name) to enhance the dataset with additional insights.
-   - Test the transformations by querying the new columns to verify correct calculations.
-
-6. **Exploratory Data Analysis (EDA)**:
+5. **Exploratory Data Analysis (EDA)**:
    - Run the analysis queries from the following files:
-      - Product_Analysis.sql – To analyze product performance and sales trends.
-      - Sales_Analysis.sql – To explore sales trends, time distribution, and tax-related insights.
-      - Customer_Analysis.sql – To examine customer behavior, demographics, and purchasing patterns.
-   - Check the results of each analysis using SELECT statements and aggregate functions to answer key business questions.
+      - `Exploratory_Data_Analysis.sql` – To gain insights about layoffs across companies, industries, and timings.
+   - Check the results of each analysis using SELECT statements and aggregate functions to answer interesting business questions.
 
 7. **Analyze and Interpret Results**:
-   - Review the insights generated from each analysis (Product, Sales, and Customer).
-   - Make sure the results align with business goals and provide actionable insights (e.g., sales trends, customer preferences).
+   - Review the insights generated from each analysis (Company, Industry and Timings).
+
+
+If you made any improvements, feel free to contribute back or share findings via GitHub issues, pull requests, or README documentation.
