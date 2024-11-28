@@ -52,44 +52,25 @@ Sample data can be found in the `LayoffData.csv` file.
 
 
 ## Project Overview
-This project is structured into three distinct parts, each focusing on a critical aspect of data analysis.
+This project is structured into two distinct parts, each focusing on a critical aspect of data analysis.
 
-1. **Data Wrangling**:
-   The first stage ensures the dataset is clean and ready for analysis. Key steps include:
-      - Building a database, creating tables, and inserting data.
-      - Handling `NULL` or missing values by setting constraints like `NOT NULL` during table creation.
-      - Verifying that no `NULL` values exist in the dataset.
+1. **Data Cleaning**:
+   The initial stage focuses on preparing the dataset for analysis. Key tasks include:
+      - Creating a staging table to safeguard the original raw data.
+      - Removing duplicate rows despite the absence of a primary key column.
+      - Standardizing data by correcting errors (e.g., typos) and addressing `NULL` values.
 
-   The SQL queries used for the Data Wrangling step can be found in the `Data_Wrangling.sql` file.
-
-
-
-2. **Feature Engineering**:
-   New columns are created from existing data to provide deeper insights:
-      - `time_of_day`: Categorizes transactions into Morning, Afternoon, or Evening, revealing sales trends throughout the day.
-      - `day_name`: Extracts the day of the week (e.g., Mon, Tue), helping identify the busiest days for each branch.
-      - `month_name`: Extracts the month (e.g., Jan, Feb) to determine which months drive the highest sales and profit.
-
-   The SQL queries used for the Feature Engineering step can be found in the `Feature_Engineering.sql` file.
+   The SQL queries for this stage are available in the `Data_Cleaning.sql` file.
 
 
+2. **Exploratory Data Analysis (EDA)**:
+   The second stage delves into analyzing the cleaned data to extract insights about layoffs across companies, industries, and time periods:
 
-3. **Exploratory Data Analysis (EDA)**:
-   The final stage of this project focuses on analyzing the processed data to address key business questions and uncover trends in sales performance, customer behavior, and product demand. This stage is divided into three main analyses, each performed using specific SQL queries:
+      - Companies: Identify the organizations with the largest layoffs and quantify their scale.
+      - Industries: Assess which industries experienced the most significant layoffs.
+      - Timings: Analyze the timing of major layoffs and track how layoff numbers evolved over time.
 
-   1. **Product Analysis**
-      - Goal: Understand the performance of different product lines and their contributions to overall sales.
-      - Query: `Product_Analysis.sql` file
-     
-   2. **Sales Analysis**
-      - Goal: Evaluate sales trends across branches to measure the effectiveness of various sales strategies.
-      - Query: `Sales_Analysis.sql` file
-     
-   3. **Customer Analysis**
-      - Goal: Examine customer segments, purchasing trends, and profitability to identify high-value segments.
-      - Query: `Customer_Analysis.sql` file
-
-
+   The SQL queries for this stage are available in the `Exploratory_Data_Analysis.sql` file.
 
 
 
