@@ -55,7 +55,8 @@ Sample data can be found in the `LayoffData.csv` file.
 This project is structured into two distinct parts, each focusing on a critical aspect of data analysis.
 
 1. **Data Cleaning**:
-   The initial stage focuses on preparing the dataset for analysis. Key tasks include:
+   The initial stage focuses on preparing the dataset for analysis.
+   Key tasks include:
       - Creating a staging table to safeguard the original raw data.
       - Removing duplicate rows despite the absence of a primary key column.
       - Standardizing data by correcting errors (e.g., typos) and addressing `NULL` values.
@@ -63,7 +64,7 @@ This project is structured into two distinct parts, each focusing on a critical 
    The SQL queries for this stage are available in the `Data_Cleaning.sql` file.
 
 
-2. **Exploratory Data Analysis (EDA)**:
+3. **Exploratory Data Analysis (EDA)**:
    The second stage delves into analyzing the cleaned data to extract insights about layoffs across companies, industries, and time periods:
 
       - Companies: Identify the organizations with the largest layoffs and quantify their scale.
@@ -78,11 +79,16 @@ This project is structured into two distinct parts, each focusing on a critical 
 The SQL queries result in the following insights and are divided into three main analyses: product performance, sales trends, and customer behavior, each offering distinct insights into the factors driving business outcomes:
 
  1. **Companies**
-      - Sales & Performance Insights: Analysis of popular cities, branches, and dominant product lines, including revenue, sales, and ratings.
+      - Approximately 5% of companies experienced a complete workforce layoff.
+      - Larger companies accounted for higher absolute numbers of layoffs.
+      - Organizations with the highest total layoffs were predominantly in the Post-IPO stage.
         
 
 2. **Industries**
-      - Sales Distribution by Time & Day: Number of sales by time of day (morning, afternoon, evening) and weekday.
+      - Retail and Consumer have been the highest impacted industry by layoffs; Manufacturing is the less impacted
+      - Aerospace had the biggest layoff with 57% and Manfacturing the less with 5%.
+      - 
+
 
 3. **Timings**
       - Demographics & Preferences: Insights into unique customer types, payment methods, gender distribution, and the highest-spending customer type.
@@ -90,7 +96,7 @@ The SQL queries result in the following insights and are divided into three main
         
 
 ## Replication
-To replicate this Walmart Sales project, please follow the steps outlined below.
+To replicate this Layoff data project, please follow the steps outlined below.
 
 1. **Set up MySQL Environment**:
    - Install MySQL Workbench (or any other preferred MySQL client).
