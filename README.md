@@ -76,7 +76,7 @@ This project is structured into two distinct parts, each focusing on a critical 
 
 
 ## Results
-The SQL queries result in the following insights and are divided into three main analyses: product performance, sales trends, and customer behavior, each offering distinct insights into the factors driving business outcomes:
+The SQL queries yielded the following insights, categorized into three key areas of analysis: layoff trends by company, the impact on industries, and timing patterns:
 
  1. **Companies**
       - Approximately 5% of companies experienced a complete workforce layoff.
@@ -105,7 +105,7 @@ To replicate this Layoff data project, please follow the steps outlined below.
 
 2. **Download and Prepare Data**:
    - Download the `LayoffData.csv`.
-   - Ensure the dataset is clean and properly formatted for MySQL import.
+   - Import the raw dataset and use the provided SQL cleaning scripts to standardize and format the data.
 
 3. **Create Database and Tables**:
    - Create a new database in MySQL: `CREATE DATABASE` world_layoffs;
