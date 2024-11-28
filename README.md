@@ -77,21 +77,17 @@ This project is structured into two distinct parts, each focusing on a critical 
 ## Results
 The SQL queries result in the following insights and are divided into three main analyses: product performance, sales trends, and customer behavior, each offering distinct insights into the factors driving business outcomes:
 
- 1. **Product Analysis**
+ 1. **Companies**
       - Sales & Performance Insights: Analysis of popular cities, branches, and dominant product lines, including revenue, sales, and ratings.
-      - Customer Preferences: Gender-based product preferences and purchasing patterns.
-      - Financial Trends: Month-by-month financial analysis (e.g., revenue, COGS) and branch/product performance comparisons.
+        
 
-2. **Sales Analysis**
+2. **Industries**
       - Sales Distribution by Time & Day: Number of sales by time of day (morning, afternoon, evening) and weekday.
-      - Revenue by Customer Type: Identification of the customer type generating the highest revenue.
-      - Tax & VAT Insights: Analysis of cities with the highest average VAT and customer types paying the most VAT.
 
-3. **Customer Analysis**
+3. **Timings**
       - Demographics & Preferences: Insights into unique customer types, payment methods, gender distribution, and the highest-spending customer type.
-      - Rating Analysis: Analysis of when and where customers give the highest average ratings (by time of day, day of the week, and branch).
-      - Branch-wise Gender & Rating Distribution: Breakdown of gender and rating patterns across branches.
 
+        
 
 ## Replication
 To replicate this Walmart Sales project, please follow the steps outlined below.
