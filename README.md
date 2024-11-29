@@ -30,7 +30,7 @@ The project was conducted in MySQL Workbench.
 
 
 ## Data
-The dataset contains layoff data from various companies from the first quarter of 2020 until the first quarter of 2023, including information on company locations, industry, layoff numbers and percentage, date, company stages. The data is organized in the following schema:
+The dataset contains layoff data from various companies from the first quarter of 2020 until the first quarter of 2023, including information on company locations, industry, layoff numbers and percentage, date and company stages. The data is organized in the following schema:
 
 
 ### Table: `layoffs`
@@ -103,9 +103,8 @@ To replicate this Layoff data project, please follow the steps outlined below.
    - Install MySQL Workbench (or any other preferred MySQL client).
    - Ensure MySQL server is running and accessible.
 
-2. **Download and Prepare Data**:
-   - Download the `LayoffData.csv`.
-   - Import the raw dataset and use the provided SQL cleaning scripts to standardize and format the data.
+2. **Download the Data**:
+   - Download the `LayoffData.csv` file.
 
 3. **Create Database and Tables**:
    - Create a new database in MySQL: `CREATE DATABASE` world_layoffs;
@@ -113,10 +112,10 @@ To replicate this Layoff data project, please follow the steps outlined below.
    - Import the data from the CSV file into the `layoffs` table using the LOAD DATA INFILE statement or MySQL Workbench's import functionality.
 
 4. **Data Cleaning**:
-   - Run SQL queries from the `Data_Cleaning.sql` file to clean the data (e.g., removing duplicates, standardise data, handling NULLs).
+   - Run SQL queries from the `Data_Cleaning.sql` file to clean the data (e.g., removing duplicates, standardize data, handling NULLs).
 
 5. **Exploratory Data Analysis (EDA)**:
-   - Run the analysis queries from the following files:
+   - Run the analysis queries from the following file:
       - `Exploratory_Data_Analysis.sql` – To gain insights about layoffs across companies, industries, and timings.
    - Check the results of each analysis using SELECT statements and aggregate functions to answer interesting business questions.
 
